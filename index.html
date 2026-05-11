@@ -4,25 +4,62 @@
 <head>
     <meta charset="UTF-8">
     <title>Silly Cats</title>
-</head>
+    <style>
 
-<body style="margin: 0px; background-image: url('zielony.jpg');
+body{
+    margin: 0px; background-image: url('zielony.jpg');
 background-repeat: no-repeat;
-background-size: cover;">
-    <header style="border: 5px solid palevioletred;
+background-size: cover;
+}
+header{
+    border: 5px solid palevioletred;
+    border-radius: 50%;
     background-color: deeppink;
     color: white;
     text-align:center;
-    ">
-        <h1> monet everst nie ma na mnie gowna </h1>
-    </header>
-    <div style="
-    color: rgb(4, 70, 50);
+}
+.text-panel{
+   color: rgb(4, 70, 50);
     text-align:center;
     margin:10px;
     padding:20px;
     border:3px solid palevioletred;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 
+} 
+.link-button{
+    display: inline-block;
+    border-bottom: 5px solid palevioletred;
+    padding: 5px;
+    margin: 5px;
+    background-color: hotpink;
+    color: cornsilk;
+    text-decoration: none;
+     transition-duration: 0.5s;
+    
+
+
+}
+.link-button:hover{
+    background-color: lightcoral;
+    transition-duration: 0.5s;
+
+}
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1> monet everst nie ma na mnie gowna </h1>
+    </header>
+    
+    <div class="text-panel">
+        <a class="link-button" href="podstrona.html">Kicia strona
+    </a>
+    <br>
+    <button onclick="location.href='podstrona.html'">
+        KLIKACZ MIEJSCE
+</button>
     <p>Foka urururur</p>
     <p>bylo juz puzino ja siedzilam przy komputerze i sobie gralam</p>
     <p>nagle ni stad znikąd przyszedl on mial bluze czyms nasiączoną krwią</p>

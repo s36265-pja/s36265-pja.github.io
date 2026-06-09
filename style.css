@@ -29,7 +29,6 @@ header{
     color: cornsilk;
     text-decoration: none;
      transition-duration: 0.5s;
-    
 }
 .link-button:hover{
     background-color: lightcoral;
@@ -87,3 +86,17 @@ main{
      background-color: #2980b9;
      transform: translateY(-3px);
 }
+
+.cien {
+    font-size: 40px;
+    color: #0b3d10;
+    text-shadow: 2px 2px 4px rgba(170, 247, 230, 0.5);
+
+}
+.txtpanel12{
+    margin: 3px;
+    padding: 10px;
+    background-color: pink;
+    border:3px solid palevioletred;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 
+} 

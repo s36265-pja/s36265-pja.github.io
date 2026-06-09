@@ -1,0 +1,63 @@
+body{
+    margin: 0px; background-image: url('zielony.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+header{
+    border: 5px solid palevioletred;
+    border-radius: 60%;
+    padding:20px;
+    margin: 20px;
+    background-color: hotpink;
+    color: white;
+    text-align:center;
+}
+.text-panel{
+    text-align:center;
+    margin: 3px;
+    padding: 10px;
+    background-color: pink;
+    border:3px solid palevioletred;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 
+} 
+.link-button{
+    display: inline-block;
+    border-bottom: 5px solid palevioletred;
+    padding: 10px;
+    margin: 5px;
+    background-color: hotpink;
+    color: cornsilk;
+    text-decoration: none;
+     transition-duration: 0.5s;
+    
+
+
+}
+.link-button:hover{
+    background-color: lightcoral;
+    transition-duration: 0.5s;
+}
+
+footer{
+    text-align: center;
+    background-color: hotpink;
+    color: white;
+}
+button{
+    margin: 3px;
+    padding: 3px;
+    background-color: rgb(165, 255, 164);
+    color: rgb(0, 89, 27);
+    border: none;
+     border-bottom: 5px solid rgb(102, 198, 79);
+    
+}
+
+h3{
+    color: rgb(0, 138, 74);
+}
+.ludzie{
+    margin: 50px;
+    width: 500;
+    height: 600;
+}
